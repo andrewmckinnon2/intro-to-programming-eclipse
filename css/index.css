@@ -1,0 +1,89 @@
+body {
+    background-color:darkgreen;
+    color:cornsilk;
+    font-family: 'Georama', sans-serif;
+}
+
+section{
+    padding-bottom: 10px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    color:hotpink;
+}
+
+#skills ul li, #experiences ul li{
+    background-color:hotpink;
+    
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+    list-style-type: circle;
+}
+
+#skills ul li{
+    width:100px;
+}
+
+#experiences ul li {
+    width: 300px;
+}
+
+form[name="leave_message"] label {
+    font-weight: bold;
+}
+
+form[name="leave_message"] input,
+form[name="leave_message"] textarea,
+form[name="leave_message"] label {
+    padding: 10px;
+    width:200px;
+    margin-bottom:15px;
+}
+
+form[name="leave_message"] button[type="submit"],
+#messages li button {
+    padding: 5px;
+    background-color: aqua;
+}
+
+#messages li button {
+    margin-left:10px;
+}
+
+a{
+    color:cornsilk;
+}
+
+/**media queries for responsive sizing of headers**/
+@media screen and (min-width: 400px){
+    h2{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    h2{
+        font-size: 50px;
+    }
+}
